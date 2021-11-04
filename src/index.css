@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply px-3 py-3 placeholder-gray-300 text-gray-600 relative bg-white rounded text-sm border border-gray-300 shadow outline-none focus:outline-none focus:ring w-full mt-1;
+}
+
+.btn {
+  @apply px-3 py-1 border-2 cursor-pointer rounded-md;
+}
+/* .App {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+}
+
+.movies {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.singleMovie {
+  border: 1px solid black;
+  margin: 2px 1px;
+  padding: 4px 2px;
+} */
